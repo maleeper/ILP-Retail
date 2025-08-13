@@ -1,12 +1,23 @@
-# Project XYZ
+# Online Retail Sales Project
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+ETL and Visualisation of the an "Online Retail Transaction" dataset which contains information on transactions made by customers through an online retail platform. 
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+The dataset includes data on the products that were purchased, the quantity of each product, the date and time of each transaction, the price of each product, the unique identifier for each customer who made a purchase, and the country where each customer is located. This dataset can be used to analyze customer behavior and preferences, identify popular products, and optimize pricing and marketing strategies. The dataset is well-suited for data analysis and machine learning applications, as it contains a large volume of transactional data that can be used to train predictive models and make data-driven decisions.
+
+Column Descriptors
+
+| Column Name   | Description |
+|---------------|-------------|
+| **StockCode** | A code used to identify the product that was purchased |
+| **Description** | A brief description of the product that was purchased |
+| **Quantity** | The quantity of the product that was purchased |
+| **InvoiceDate** | The date and time that the purchase was made |
+| **UnitPrice** | The price of one unit of the product that was purchased |
+| **CustomerID** | The unique identifier for the customer who made the purchase |
+| **Country** | The country where the customer who made the purchase is located |
 
 
 ## Business Requirements
